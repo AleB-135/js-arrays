@@ -70,4 +70,14 @@ const teachersString = "Sarah, Ed, Fabio, Phil, Carlo, Patrick, Vanessa";
     console.log(string);
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+const isTeachersEmpty = false;
+
+    if (teachers.length === 0) {
+        const isTeachersEmpty = true;
+        console.log(isTeachersEmpty);
+        
+    } else {
+        const isTeachersEmpty = false;
+        console.log(isTeachersEmpty);
+    }
+    

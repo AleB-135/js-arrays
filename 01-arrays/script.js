@@ -23,13 +23,18 @@ const fourthTeacher = teachers.at(3);
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = "Luca";
     teachers.pop();
+    console.log(teachers);
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = "Nathan";
     teachers.shift();
+    console.log(teachers);
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
+    teachers.push("Vanessa");
+    console.log(teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-
+    teachers.unshift("Sarah");
+    console.log(teachers);
 // 7. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;

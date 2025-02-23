@@ -65,8 +65,9 @@ const lewisIndex = -1;
     
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
-
+const teachersString = "Sarah, Ed, Fabio, Phil, Carlo, Patrick, Vanessa";
+    let string = teachers.join(", ");
+    console.log(string);
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 const isTeachersEmpty = null;

@@ -16,7 +16,7 @@ const fourthTeacher = teachers.at(3);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-    teachers[5] = "Patrick";
+    teachers[4] = "Patrick";
     console.log(teachers);
 
 
